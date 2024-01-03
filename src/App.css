@@ -1,0 +1,84 @@
+body {
+    background-color: burlywood;
+}
+
+h1 {
+    padding: 3.5%;
+}
+
+.nav { 
+    background-color: #A62B1F;
+    padding: 1%;
+    display: flex;
+
+}
+
+.nav-tabs {
+    flex-direction: row;  
+    justify-content: space-between;
+}
+
+.nav-item {
+    background-color: #214001;
+    padding: 5%;
+    color: inherit;
+    color: #63ecfc;
+}
+
+.active {
+    background-color: #2E5902;
+}
+
+.contact {
+display: flex;
+flex-direction: column;
+
+}
+footer {
+position: fixed;
+bottom: 0;
+right: 0;
+background-color: rgb(221, 168, 99);
+}
+
+footer img {
+    width: 50px;
+    margin: 5px
+
+}
+#about {
+    display: flex;
+    flex-direction: row;
+}
+#about p {
+    margin-left: 10%;
+}
+#maz {
+    width: 30%;
+}
+#resume {
+    margin-bottom: 40%;
+}
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+}
+
+.one {
+    flex-direction: row;
+}
+
+.two {
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+
+.portfolio img {
+    max-width: 450px;
+}
+
+.portfolio div {
+    flex-direction: column;
+    margin: 2%;
+}
