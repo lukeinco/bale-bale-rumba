@@ -4,36 +4,20 @@ function NavTabs() {
   const currentPage = useLocation().pathname;
 
   return (
-    <header>
-    <ul className="nav nav-tabs">
-      <h1>Luke Phillips | Web Developer</h1>
-      <Link
-        to="/"
-        className={currentPage === '/' ? 'nav-link nav-item active' : 'nav-item nav-link'}
-      >
-          About Me
-      </Link>
-      <Link
-        to="/Portfolio"
-        className={currentPage === '/Portfolio' ? 'nav-link nav-item active' : 'nav-item nav-link'}
-      >
-          Portfolio
-      </Link>
-      <Link
-        to="/Contact"
-        className={currentPage === '/Contact' ? 'nav-link nav-item active' : 'nav-item nav-link'}
-      >
-          Contact
-      </Link>
-      <Link
-        to="/Resume"
-        className={currentPage === '/Resume' ? 'nav-link nav-item active' : 'nav-item nav-link'}
-      >
-          Resume
+<nav>
+  <div id="left-nav">
+  <img src="../images/balebalerumba.svg"/>
 
-      </Link>
-    </ul>
-    </header>
+  </div>
+  <div id="button">
+    <Link to="/menu" className='btn' id="menu">Menu</Link>
+    <Link to="/catering" className='btn' id="cater">Catering</Link>
+    <Link to="/coffee" className='btn' id="coffee">Rojo Túcan Coffee</Link>
+    <Link to="/reviews" className='btn' id='reviews'>Reviews</Link>
+    <Link to="/about" className='btn' id="about">About Us</Link>
+    <Link id="order" className='btn' >Order Now!</Link>
+  </div>
+</nav>
   );
 }
 

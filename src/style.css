@@ -1,0 +1,139 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+body {
+width: 100%;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: #7CA9AC;
+    display: flex;
+    flex-direction: row;
+    min-width: 0;
+}
+
+#left-nav img{
+    width: 100%;
+    margin: 10px;
+}
+
+#button {
+    flex: 1 1 0;
+    /* margin-right: auto; */
+    margin-right: auto;
+
+    /* justify-content: space-between; */
+
+}
+.btn  {
+    padding: 2%;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+
+#menu {
+background-color: #FFC82A;
+text-decoration: none;
+color: #FFEFE5;
+}
+
+#cater {
+background-color: #7CA9AC;
+text-decoration: none;
+color: #FFEFE5;
+}
+
+#about {
+background-color: #51831E;
+text-decoration: none;
+color: #FFEFE5;
+}
+
+#coffee {
+background-color: #710A0A;
+text-decoration: none;
+color: #FFEFE5;
+}
+
+#reviews {
+    background-color: #FFC82A;text-decoration: none;
+    color: #FFEFE5;
+}
+
+#order {
+background-color:#FF8824;
+text-decoration: none;
+color: #FFEFE5;
+}
+
+#window {
+    position: relative;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/pork-belly.png");
+  
+    /* Set a specific height */
+    min-height: 600px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center top, center bottom, center;
+    background-repeat: no-repeat, no-repeat, repeat-y;
+    background-size: cover;
+    z-index: 120;
+  }
+
+#bale {
+    position: absolute;
+    top: 20%;
+}
+
+#bale-bottom {
+    position: absolute;
+    top: 400px;
+    left: 30px;
+}
+
+section {
+    flex-direction: column;
+    background-color: #7CA9AC;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+}
+
+#card-1-text{
+    border-radius: 1%;
+    background-color: #FF74A2;
+    margin: 20px;
+    font-size: 40px;
+    padding: 20px;
+    width: 50%;
+}
+#card-1-text img{
+    width: 100%;
+    position: relative;
+}
+.menu {
+    background-color: #FF74A2;
+}
+
+footer {
+    background-color: #CACBA9;
+    min-height: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

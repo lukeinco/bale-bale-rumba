@@ -3,10 +3,12 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import App from './App.jsx';
 import Error from './pages/error.jsx';
-import AboutMe from './pages/about.jsx'
-import Portfolio from './pages/portfolio.jsx';
-import Contact from './pages/contact.jsx';
-import Resume from './pages/resume.jsx';
+import About from './pages/about.jsx'
+import Home from './pages/home.jsx';
+import Catering from './pages/catering.jsx';
+import Coffee from './pages/coffee.jsx';
+import Reviews from './pages/reviews.jsx';
+import Menu from './pages/menu.jsx'
 
 const router = createBrowserRouter([
   {
@@ -16,20 +18,28 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <AboutMe />,
+        element: <Home />,
       },
       {
-        path: '/Portfolio',
-        element: <Portfolio />,
+        path: '/Menu',
+        element: <Menu />,
       },
       {
-        path: '/Contact',
-     element: <Contact />,
+        path: '/About',
+        element: <About />,
       },
       {
-        path: '/Resume',
-        element: <Resume />,
+        path: '/Catering',
+     element: <Catering />,
       },
+      {
+        path: '/Coffee',
+        element: <Coffee />,
+      },
+      {
+        path: '/Reviews',
+        element: <Reviews />,
+      }
     ],
   },
 ]);
