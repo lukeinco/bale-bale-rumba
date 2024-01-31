@@ -23,35 +23,70 @@ function Home() {
         <img src="../images/drums-and-bale.png" alt="bale bale" width="100%" id="bale" />
 
       </div>
+      <div id='home-header'>
+        <img src="../images/parrot-left.png" alt="parrot" />
+        <div id='home-header-text'>
+          <h1 id='home-text'>Taste the flavor of 5 cultures</h1>
+          <p>Bringing you food from Mexico, Cuba, Honduras, Puerto Rico, and Colombia</p>
+        </div>
+        <img src="../images/parrot.png" alt="parrot" />
+      </div>
       <section>
         <div className="card 1">
           <div id="card-1-text" width="50%">
-            <h1>Enjoy the Flavors of 5 Cultures!</h1>
-            <img src="../images/toucan-leaves.png" alt="toucans" />
+          <img src="../images/banner.png" alt="toucans" />
+            <h1>Mexico</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius iste facilis accusantium odio consequuntur quasi illum ipsam minima officiis quisquam non quo id, corporis recusandae! Dicta repellat dolo</p>
+            <h3>Try our:</h3>
+            <p>Quesadillas</p>
+            <img src="../images/banner.png" alt="toucans" />
           </div>
-          <img src="../images/platter.png" width="50%" className="picture card 1" />
+          <img src="../images/mexico-wares.jpg" width="50%" className="picture card 1" />
         </div>
         <div className="card 2">
-          <img src="../images/catering.png" width="50%" alt="catering" />
+          <img src="../images/cuba.jpg" width="50%" alt="catering" />
           <div id="card-1-text" >
-            <h1>Cater with us</h1>
-            <img src="../images/drum-leaves.png" alt="drum and leaves" />
+          <img src="../images/banner.png" alt="toucans" />
+            <h1>Cuba</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae fugit porro perferendis illum cumque, nobis pariatur? Ullam maxime porro accusamus iure magnam, nam quia quis at praesentium eius </p>
+            <h3>Try our:</h3>
+            <p>Yuca Frita, Mojo</p>
+            <img src="../images/banner.png" alt="toucans" />
           </div>
         </div>
         <div className="card 3">
           <div id="card-1-text" width="50%">
-            <h1>Coffee from Honduras</h1>
+            <h1>Honduras</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nulla hic expedita dignissimos similique, laborum commodi tempore molestiae nobis tempora! Eveniet quas, accusamus quod mollitia </p>
+            <h3>Try our:</h3>
+            <p>Baleada</p>
+            <img src="../images/banner.png" alt="toucans" />
           </div>
-            <img src="../images/coffee-tree.jpg" alt="coffee berries" width="50%"/>
-         
+          <img src="../images/honduras-beach.jpeg" alt="coffee berries" width="50%" />
+
         </div>
         <div className="card ">
-          <img src="../images/family.jpg" alt="our family" width="50%"/>
+          <img src="../images/puerto-rico.jpg" alt="our family" width="50%" />
           <div id="card-1-text" width="50%">
-            <h1>Our family</h1>
+            <img src="../images/banner.png" alt="toucans" />
+            <h1>Puerto Rico</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos quos, repellendus, facere, eius nemo nulla libero veniam culpa qui molestiae temporibus? Sit provident vero obcaecati facere </p>
+            <h3>Try our:</h3>
+            <p>Mofongo</p>
+            <img src="../images/toucan-leaves.png" alt="" />
           </div>
-         
         </div>
+          <div className="card">
+            <div id="card-1-text" width="50%">
+              <h1>Colombia</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nulla hic expedita dignissimos similique, laborum commodi tempore molestiae nobis tempora! Eveniet quas, accusamus quod mollitia optio dolores nobis </p>
+              <h3>Try our:</h3>
+              <p>Bandeja Paisa</p>
+              <img src="../images/banner.png" alt="toucans" />
+            </div>
+            <img src="../images/colombia.jpg" alt="colombia" width="50%" />
+
+          </div>
       </section>
     </>
   );

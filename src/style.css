@@ -14,23 +14,21 @@ nav {
     display: flex;
     flex-direction: row;
     min-width: 0;
+    justify-content: space-between;
 }
 
 #left-nav img{
     width: 100%;
-    margin: 10px;
+    height: 100%;
 }
 
 #button {
-    flex: 1 1 0;
-    /* margin-right: auto; */
-    margin-right: auto;
+display: flex;
 
-    /* justify-content: space-between; */
-
+    
 }
 .btn  {
-    padding: 2%;
+    padding: 57px 57px 57px 57px;
     font-size: larger;
     font-weight: bolder;
 
@@ -103,6 +101,25 @@ color: #FFEFE5;
     left: 30px;
 }
 
+#home-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #FFEFE5;
+    background-color: #002C5B;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+#home-header-text {
+    flex-direction: column;
+}
+
+#home-text {
+font-size: 100px;
+}
+
 section {
     flex-direction: column;
     background-color: #7CA9AC;
@@ -111,13 +128,15 @@ section {
 .card {
     display: flex;
     flex-direction: row;
+    /* width: 100%; */
+    background-color: #002C5B;
 }
 
 #card-1-text{
     border-radius: 1%;
     background-color: #FF74A2;
     margin: 20px;
-    font-size: 40px;
+    font-size: 30px;
     padding: 20px;
     width: 50%;
 }
@@ -128,7 +147,45 @@ section {
 .menu {
     background-color: #FF74A2;
 }
+/* #price {
+    color: inherit;
+    display: grid;
+    justify-content: end;
+} */
 
+#item {
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu-header {
+    width: 100%;
+    font-size: 250px;
+    background-color: #002C5B;
+    color: #FFEFE5;
+    display: flex;
+    justify-content: center;
+}
+
+#card-header{
+    margin-bottom: 20px;
+}
+
+address {
+    color: black;
+}
+
+#entree-text {
+    font-style: italic;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+#review-text {
+    margin: 3%;
+}
+#review-page {
+    background-color: #FFC82A;
+}
 footer {
     background-color: #CACBA9;
     min-height: 300px;
