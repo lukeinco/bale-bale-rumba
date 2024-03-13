@@ -7,7 +7,7 @@ function NavTabs() {
 <nav>
   <div id="left-nav">
     <Link to="/" >
-  <img src="../images/balebird.png"/>
+  <img src="../images/drums-and-bales.png"/>
       </Link>/
 
   </div>

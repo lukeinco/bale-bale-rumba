@@ -6,7 +6,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl,
 
 body {
 width: 100%;
-font-family: Arial, Helvetica, sans-serif;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav {
@@ -16,6 +16,20 @@ nav {
     min-width: 0;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 768px) {
+    nav,
+    #button {
+      flex-direction: column;
+    }
+  }
+
+@media screen and (max-width:768px){
+    #parrot{
+        display: none;
+    }
+}
+
 
 #left-nav img{
     width: 100%;
@@ -28,7 +42,7 @@ display: flex;
     
 }
 .btn  {
-    padding: 57px 57px 57px 57px;
+    padding: 25px 57px 25px 57px;
     font-size: larger;
     font-weight: bolder;
 
@@ -77,10 +91,10 @@ color: #FFEFE5;
 
 .parallax {
     /* The image used */
-    background-image: url("../images/pork-belly.png");
+    /* background-image: url("../images/pork-belly.png"); */
   
     /* Set a specific height */
-    min-height: 600px; 
+    min-height: 1000px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -88,11 +102,11 @@ color: #FFEFE5;
     background-repeat: no-repeat, no-repeat, repeat-y;
     background-size: cover;
     z-index: 120;
-  }
+}
 
 #bale {
     position: absolute;
-    top: 20%;
+    top: 15%;
 }
 
 #bale-bottom {
@@ -117,7 +131,7 @@ color: #FFEFE5;
 }
 
 #home-text {
-font-size: 100px;
+    font-size: 60px;
 }
 
 section {
@@ -128,8 +142,17 @@ section {
 .card {
     display: flex;
     flex-direction: row;
-    /* width: 100%; */
     background-color: #002C5B;
+}
+
+
+@media screen and (max-width:768px){
+    .card {
+        display: flex;
+        flex-direction: column;
+        background-color: #002C5B;
+    }
+
 }
 
 #card-1-text{
@@ -143,15 +166,92 @@ section {
 #card-1-text img{
     width: 100%;
     position: relative;
+    
 }
+#card-2-text {
+    border-radius: 1%;
+    background-color: #FF74A2;
+    margin: 20px;
+    font-size: 30px;
+    padding: 20px;
+    width: 25%;
+}
+
+#card-2-text img {
+    width: 100%;
+    position: relative;
+}
+
+#events-header {
+    width: 100%;
+    font-size: 250px;
+    background-color: #7CA9AC;
+    color: #FFEFE5;
+    display: flex;
+    justify-content: center;
+}
+
+.coffee-trees{
+
+        /* The image used */
+        background-image: url("../images/coffee-story-farm.png");
+      
+        /* Set a specific height */
+        min-height: 650px; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center top, center bottom, center;
+        background-repeat: no-repeat, no-repeat, repeat-y;
+        background-size: cover;
+        z-index: 120;
+}
+
+.coffeecard{ 
+    position: absolute;
+    top: 1%;
+    width: 30%;
+    left: 37%;
+}
+
+#coffee-header {
+    width: 100%;
+    font-size: 250px;
+    background-color: #7CA9AC;
+    color: #FFEFE5;
+    display: flex;
+    justify-content: center;
+}
+
+#card-coffee-text  {
+    border-radius: 1%;
+    background-color: #710A0A;
+    margin: 20px;
+    font-size: 30px;
+    padding: 20px;
+    width: 108%;
+    color: #FFEFE5;
+}
+
+#card-coffee-text img {
+    width: 100%;
+}
+
+
+#imgstk {
+    display: flex;
+    flex-direction: column;
+}
+
+#bottom {
+    display: flex;
+    flex-direction: row;
+    background-color: #7CA9AC;
+}
+
 .menu {
     background-color: #FF74A2;
 }
-/* #price {
-    color: inherit;
-    display: grid;
-    justify-content: end;
-} */
 
 #item {
     display: flex;
@@ -161,36 +261,167 @@ section {
 #menu-header {
     width: 100%;
     font-size: 250px;
-    background-color: #002C5B;
+    background-color: #FFC82A;
     color: #FFEFE5;
     display: flex;
     justify-content: center;
+}
+
+.menucard {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFC82A;
+
+}
+
+
+.menucard img {
+    width: 50%;
 }
 
 #card-header{
     margin-bottom: 20px;
 }
 
-address {
-    color: black;
-}
 
 #entree-text {
     font-style: italic;
     margin-bottom: 10px;
     font-size: 25px;
 }
+
+iframe {
+    margin-left: 20px;
+}
+
 #review-text {
     margin: 3%;
 }
 #review-page {
-    background-color: #FFC82A;
+    background-color: #f7f7f7;
 }
+#reviewss{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+
+}
+
+
+@media screen and (max-width:768px) {
+    #reviewss {
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+                }
+    }
+
+#reviewss img{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.aboutcard {
+    display: flex;
+    flex-direction: row;
+    background-color: #51831E;
+
+}
+
+.aboutcard img {
+    margin: 20px;
+}
+
+#card-about-text{
+    border-radius: 1%;
+    background-color: #FF74A2;
+    margin: 20px;
+    font-size: 30px;
+    padding: 20px;
+    width: 66%;
+}
+
+#card-about-text img {
+    width: 100%;
+    position: relative;
+}
+
 footer {
     background-color: #CACBA9;
-    min-height: 300px;
+    min-height: 150px;
     padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
+address {
+    color: black;
+}
+@media screen and (max-width:768px){
+        #card-1-text,
+        #card-about-text,
+        #card-coffee-text {
+    width: 85%;
+    margin: 0;
+        }
+    
+}
+
+@media screen and (max-width:768px) {
+#home-text {
+                font-size: 50px;
+            }
+}
+
+@media screen and (max-width:768px){ 
+    .card img,
+    .menucard img,
+    .aboutcard img {
+        width: 100%;
+        margin: 0;
+    }
+}
+@media screen and (max-width:768px){
+    footer,
+    .menucard,
+    .coffeecard,
+    .aboutcard {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:768px){
+    #menu-header,
+    #events-header{
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width:768px){
+    #card-header,
+    #card-header h1,
+    #card-coffee-text h1,
+    #card-about-text h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:768px){
+    #card-2-text,
+    iframe {
+        width: 85%;
+        margin: 0;
+    }
+}
+@media screen and (max-width:768px){
+    #card-2-text h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:768px){
+    a,
+    p {
+        font-size: 20px;
+    }
+}
+

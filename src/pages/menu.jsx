@@ -3,7 +3,7 @@ export default function Menu() {
     <>
       <div className="menu">
         <h1 id="menu-header">MENU</h1>
-        <div className="card 1">
+        <div className="menucard 1">
           <div id="card-1-text" width="50%">
             <img src="../images/banner.png" alt="toucans" />
             <h1 id="card-header">Appetizers</h1>
@@ -16,12 +16,13 @@ export default function Menu() {
               <p id="price">12</p>
             </div>
             <div id="item">
-              <p>Empanadas (6)</p>
+              <p>Empanadas (3)</p>
               <p id="price">12</p>
 
             </div>
             <div id="item">
-              <p>Tostones Rellenos (ropa vieja or lechon asado) </p>
+              {/* TODO: make sure this is correct*/}
+              <p>3 Tostones Rellenos (ropa vieja or lechon asado) </p>
               <p id="price">12</p>
 
             </div>
@@ -37,19 +38,19 @@ export default function Menu() {
             </div>
             <div id="item">
               <p>Papas Rellenas</p>
-              <p id="price">8</p>
+              <p id="price">10</p>
 
             </div>
             <img src="../images/toucan-leaves.png" alt="toucans" />
           </div>
           <img src="../images/platter.png" width="50%" className="picture card 1" />
         </div>
-        <div className="card 1">
+        <div className="menucard 1">
           <img src="../images/cuban.jpg" width="50%" className="picture card 1" />
           <div id="card-1-text" width="50%">
             <div id="card-header">
               <img src="../images/banner.png" alt="toucans" />
-              <h1>Sandwiches</h1>
+              <h1>Sandwich</h1>
               <p id="entree-text">Comes with one side</p>
             </div>
             <div id="item">
@@ -64,7 +65,7 @@ export default function Menu() {
             </div>
             <div id="item">
               <p>Pan Con Bistec</p>
-              <p id="price">15</p>
+              <p id="price">16</p>
 
             </div>
             <div id="item">
@@ -80,7 +81,7 @@ export default function Menu() {
             <img src="../images/banner.png" alt="toucans" />
           </div>
         </div>
-        <div className="card 1">
+        <div className="menucard 1">
           <div id="card-1-text" width="50%">
             <div id="card-header">
               <h1>Entrees</h1>
@@ -120,12 +121,11 @@ export default function Menu() {
           </div>
           <img src="../images/IMG_2257.jpeg" width="50%" className="picture card 1" />
         </div>
-        <div className="card 1">
+        <div className="menucard 1">
           <img src="../images/tamale.jpeg" width="50%" className="picture card 1" />
           <div id="card-1-text" width="50%">
             <div id="card-header">
               <h1>Latin Twist Corner</h1>
-              <p id="entree-text">Comes with two sides</p>
             </div>
             <div id="item">
               <p>Bandeja Paisa Rumba Style</p>
@@ -164,7 +164,7 @@ export default function Menu() {
             </div>
           </div>
         </div>
-        <div className="card 1">
+        <div className="menucard 1">
           <div id="card-1-text" width="50%">
             <img src="../images/banner.png" alt="toucans" />
             <div id="card-header">
@@ -193,7 +193,7 @@ export default function Menu() {
 
             </div>
             <div id="item">
-              <p>Quesdilla (beef, chicken, pork or cheese)</p>
+              <p>Quesadilla (beef, chicken, pork or cheese)</p>
               <p id="price">11</p>
 
             </div>
@@ -206,7 +206,7 @@ export default function Menu() {
           </div>
           <img src="../images/maduros.png" width="50%" className="picture card 1" />
         </div>
-        <div className="card 1">
+        <div className="menucard 1">
           <img src="../images/IMG_0103.jpeg" width="50%" className="picture card 1" />
           <div id="card-1-text" width="50%">
             <h1 id="card-header">Desserts</h1>
@@ -221,7 +221,7 @@ export default function Menu() {
 
             </div>
             <div id="item">
-              <p>Flan De Queso</p>
+              <p>Flan De Queso (or coconut)</p>
               <p id="price">7</p>
 
             </div>
@@ -238,58 +238,16 @@ export default function Menu() {
             <p>Honduran Horchata</p>
             <p>Juice of the day (ask your server)</p>
             <p>Fountain Drinks</p>
+            <p>plus seasonal imported sodas!</p>
           </div>
         </div>
-        <div className="card 1">
+        <div className="menucard 1">
           <div id="card-1-text" width="50%">
-            <h1 id="card-header">Beer</h1>
-            <div id="item">
-              <p>Corona</p>
-              <p id="price">5.50</p>
-            </div>
-            <div id="item">
-              <p>Modelo</p>
-              <p id="price">5.50</p>
-
-            </div>
-            <div id="item">
-              <p>Coors Lite</p>
-              <p id="price">4.50</p>
-
-            </div>
-            <div id="item">
-              <p>Tecate</p>
-              <p id="price">4.50</p>
-
-            </div>
-
-            <h1 id="card-header">Cocktails</h1>
-            <div id="item">
-              <p>Classic Mint Mojito</p>
-              <p id="price">14</p>
-
-            </div>
-            <div id="item">
-              <p>Rumba</p>
-              <p id="price">12</p>
-
-            </div>
-            <div id="item">
-              <p>Margarita</p>
-              <p id="price">13</p>
-
-            </div>
-            <div id="item">
-              <p>Pina Colada</p>
-              <p id="price">13</p>
-
-            </div>
-
-            <h1 id="card-header">Wine</h1>
-            <p>We have wine as well! Just ask your server for our seasonal selection</p>
+            <h1 id="card-header">Alcoholic beverages</h1>
+            <p>Happy hour is Tuesday-Friday from 2-5. Come and dine in for 20% off drinks and $7 margs all day Thursday! Try the mint mojito, rumba special or our famous margaritas. We have beer and wine as well! Just ask your server for current availability.</p>
 
           </div>
-          <img src="../images/mojito.jpg" width="50%" className="picture card 1" />
+          <img src="../images/drinks.jpg" width="50%" className="picture card 1" />
         </div>
 
       </div>
