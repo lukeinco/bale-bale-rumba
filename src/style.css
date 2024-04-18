@@ -298,7 +298,8 @@ iframe {
     margin: 3%;
 }
 #review-page {
-    background-color: #f7f7f7;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 #reviewss{
     display: flex;
@@ -307,6 +308,9 @@ iframe {
 
 }
 
+#small-div {
+    margin-bottom: 2%;
+}
 
 @media screen and (max-width:768px) {
     #reviewss {

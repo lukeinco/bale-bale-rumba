@@ -122,7 +122,7 @@ export default function Menu() {
           <img src="../images/IMG_2257.jpeg" width="50%" className="picture card 1" />
         </div>
         <div className="menucard 1">
-          <img src="../images/tamale.jpeg" width="50%" className="picture card 1" />
+          <img src="../images/IMG_4293.jpeg" width="50%" className="picture card 1" />
           <div id="card-1-text" width="50%">
             <div id="card-header">
               <h1>Latin Twist Corner</h1>
@@ -158,7 +158,7 @@ export default function Menu() {
 
             </div>
             <div id="item">
-              <p>Two Tamal Cubanos (comes with a side)</p>
+              <p>Two Mexican Tamales (comes with a side)</p>
               <p id="price">14</p>
 
             </div>
