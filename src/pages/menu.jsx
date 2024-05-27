@@ -21,15 +21,9 @@ export default function Menu() {
 
             </div>
             <div id="item">
-              {/* TODO: make sure this is correct*/}
-              <p>3 Tostones Rellenos (ropa vieja or lechon asado) </p>
+              <p>3 Tostones Rellenos (chicken, ropa vieja or lechon asado) </p>
               <p id="price">12</p>
 
-            </div>
-            <div id="item">
-
-              <p>Chicharron De Pollo</p>
-              <p id="price">7</p>
             </div>
             <div id="item">
               <p>Chicharron De Puerco</p>
@@ -73,11 +67,6 @@ export default function Menu() {
               <p id="price">15</p>
 
             </div>
-            <div id="item">
-              <p>Pollo Wrap</p>
-              <p id="price">15</p>
-
-            </div>
             <img src="../images/banner.png" alt="toucans" />
           </div>
         </div>
@@ -92,16 +81,7 @@ export default function Menu() {
               <p id="price">25</p>
 
             </div>
-            <div id="item">
-              <p>Vaca Frita</p>
-              <p id="price">25</p>
 
-            </div>
-            <div id="item">
-              <p>Ropa Vieja</p>
-              <p id="price">25</p>
-
-            </div>
             <div id="item">
 
               <p>Lechon Asado</p>
@@ -138,13 +118,16 @@ export default function Menu() {
 
             </div>
             <div id="item">
-              <p>One Canoa (comes with side) </p>
-              <p id="price">13</p>
-
+              <p>Canoa (comes with side) </p>
+              <p id="price">15</p>
             </div>
             <div id="item">
-              <p>Shredded Beef Burrito</p>
+              <p>Vegan Canoa (comes with side) </p>
               <p id="price">14</p>
+            </div>
+            <div id="item">
+              <p>Rumba Burrito</p>
+              <p id="price">15</p>
 
             </div>
             <div id="item">
@@ -183,12 +166,13 @@ export default function Menu() {
             <p>Frijoles Negros</p>
             <p>French Fries</p>
             <p>Arepa</p>
+            <p>Steamed Vegetables</p>
             <div id="card-header">
               <h1>Kid's Menu</h1>
               <p id="entree-text">Comes with one side</p>
             </div>
             <div id="item">
-              <p>Deditos De Pollo</p>
+              <p>Chicken Nuggets</p>
               <p id="price">11</p>
 
             </div>
